@@ -1,0 +1,416 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+  }
+  .header1{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background: #2f3640;
+    padding: 0;
+    margin: 0;
+  }
+  .right-contact{
+    width: 15%;
+    padding:15px;
+  }
+  .left-contact{
+    width: 30%;
+  }
+  .left-contact a{
+   color: white;
+   padding: 5px;
+  }
+  .left-contact i:hover{
+    transform: scale(1.3);
+  }
+  .center-contact{
+    width: 35%;
+    color: white;
+  }
+  .login-button{
+    width: 5%;
+    float: right;
+  }
+  .right-contact a{
+    margin-left: 10px;
+    padding: 2px;
+    border-radius: 4px;
+    transition: .3s linear;
+    padding: auto;
+  }
+  .right-contact i:hover{
+    transform: scale(2.1);
+  }
+  button{
+    padding: 6px 10px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-right: 20px;
+  }
+  button:hover{
+    background: powderblue;
+    color: #2f3640;
+    transform: scale(1.1);
+  }
+  /*header thứ 2 */
+  .header2{
+    height: 90px;
+    background: #2f3640;
+    margin-bottom: 2px;
+  }
+  .logomain{
+    max-width: 1450px;
+    padding: 0 10px;
+    margin: auto;
+  }
+  .logo{
+    float: left;
+    padding-top: 20px;
+    color: white;
+    font-size: 25px;
+  }
+  .logomain a:hover{
+    color:rgb(37, 189, 209);
+  }
+  
+  .logo img{
+    height: 50px; 
+  }
+  .find{
+    float: left;
+    padding-top: 40px;
+    margin-left: 100px;
+  }
+  .search{
+    color: rgb(46, 199, 219);
+  }
+  .menu{
+    background: #2f3640;
+    text-align: center;
+    float: right;
+    padding-top: 20px;
+  }
+  .menu ul{
+    display: inline-flex;
+    list-style: none;
+    color:#fff;
+  }
+  .menu ul li{
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+  }
+  .menu ul li a{
+      color:white;
+      text-decoration: none;
+  }
+  .active, .menu ul li:hover{
+     background: rgb(147, 208, 216);
+     border-radius: 8px;  
+  }
+  .menu i{
+    margin-right: 8px;
+  }
+  .tab-fashion{
+    display: none;
+  }
+  .menu ul li:hover .tab-fashion{
+    display: block;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -10px;
+    background: #2f3640;
+    border-radius: 0px 0px 5px 5px;
+  }
+  .menu ul li:hover .tab-fashion ul{
+    display: block;
+    margin: 0;
+  }
+  .menu ul li:hover .tab-fashion ul li{
+    border-radius: 8px;
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px outset white;
+    text-align: left;
+  }
+  .menu ul li:hover .tab-fashion ul li a:hover{
+    color:black;
+    background: rgb(147, 208, 216);
+    font-size: 105%;
+    transition: 0.3s linear;
+  }
+  .home{
+    color: #d84a4a;
+  }
+  
+  .fashion{
+    color: #0abde3;
+  }
+  
+  .sports{
+    color: #feca57;
+  }
+  
+  .technology{
+    color: #278b45;
+  }
+  .lifestyle{
+    color: #5f27cd;
+  }
+  
+  .email{
+    color: rgb(204, 63, 63);
+  }
+  .telephone{
+    color: rgb(9, 114, 128);
+  }
+  .facebook{
+    color: rgb(43, 43, 151);
+  }
+  .instagram{
+    color: pink;
+  }
+  .twitter{
+    color: rgb(37, 107, 212);
+  }
+  .youtube{
+    color: rgb(184, 43, 43);
+  }
+  .tshirt{
+    color: #ce427d;
+  }
+  .hat{
+    color: #b48f3d;
+  }
+  .socks{
+    color: #6d51a7;
+  }
+  .bag{
+    color: #27cda4;
+  }
+  .trophy{
+    color: #a2b921;
+  }
+  .award{
+    color: #ba27cd;
+  }
+  .soccer{
+    color: #945429;
+  }
+  .news{
+    color: #beb34b;
+  }
+  .container1{
+    float: left;
+    width: 14%;
+    min-height: 600px;
+    max-height: 800px;
+  }
+  .container23-menu{
+    
+  }
+  .container4{
+    float: right;
+    width: 12.65%;
+    min-height: 600px;
+    max-height: 800px; 
+  }
+  .theme{
+    margin-top: 7px;
+  }
+  .footer1{
+    margin-top: 10px;
+  }
+  .info1{
+    width: 33%;
+    float: left;
+    padding-left: 4px;
+    color: white;
+    background: #2f3640;
+    min-height: 300px;
+    margin-top: 2px;
+  }
+  .info1 h5{
+    font-size: 102%;
+    padding: 5px 0px 5px 0px;
+    color: white;
+  }
+  .footer-contact1 i:hover{
+    transform: scale(1.5);
+  }
+  .footer-contact1 a{
+    padding: 8px;
+    position: relative;
+    color: white;
+    bottom: -65px;
+    left: 150px;
+  }
+  .footer-contact2 a{
+    padding: 5px;
+    position: relative;
+    color: white;
+    bottom: -70px;
+    left: 70px;
+  }
+  .footer-contact2 i:hover{
+    transform: scale(1.5);
+  }
+  .info2{
+    width: 33%;
+    float: left;
+    padding-left: 4px;
+    color: white;
+    background: #2f3640;
+    min-height: 300px;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  .info2 h2{
+    color: white;
+    margin-left: 50px;
+  }
+  .menu-footer ul{
+    list-style: none;
+    margin-left: 50px;
+  }
+  .menu-footer ul li{
+    padding: 12px;
+    font-size: 130%;
+  }
+  .menu-footer ul li a{
+    color: white;
+  }
+  .menu-footer ul li a:hover{
+    font-size: 110%;
+    color: powderblue;
+    transition: 0.3s linear;
+  }
+  .info3{
+    width: 33.8%;
+    float: right;
+    padding-left: 4px;
+    color: white;
+    background: #2f3640;
+    min-height: 300px;
+    margin-top: 2px;
+  }
+  .info-web{
+    margin-top: 7px;
+    float: left;
+    width: 100%;
+  }
+  .menu ul li a:hover .sub-fashion{
+    display: block;
+    position: absolute;
+    background: #2f3640;
+    color: white;
+  }
+  .tab-menu3{
+    position: absolute;
+    left: 160px;
+    top: 108px;
+    background: #2f3640;
+    border-radius: 0px 8px 8px 8px;
+    display: none;
+  }
+  .tab-fashion ul li:hover .tab-menu3{
+    display: block;
+  }
+  .container2{
+    float: left;
+    width: 30%;
+    min-height: 600px;
+    max-height: 800px;
+    margin-left: 0px;
+    color: black;
+    margin-top: 10px;
+  }
+  .container2 a:hover{
+    color:rgb(157, 38, 184);
+  }
+  .con-31 a:hover{
+    color:rgb(157, 38, 184);
+  }
+  .con-32 a:hover{
+    color:rgb(157, 38, 184);
+  }
+  .con-33 a:hover{
+    color:rgb(157, 38, 184);
+  }
+  .con-34 a:hover{
+    color:rgb(157, 38, 184);
+  }
+  .picture-main img{
+    width: 430px;
+    height: 350px;
+  }
+  .picture-main{
+    color: black;
+  }
+  .container3{
+    float: left;
+    width: 43%;
+    min-height: 600px;
+    max-height: 800px;
+    margin-left: 5px;
+  }
+  .con-31{
+    float: left;
+    width: 49%;
+    min-height: 200px;
+    max-height: 245px;
+    margin-top: 10px;
+    margin-left: 2px;
+  }
+  .con-31 img{
+    width: 220px;
+    height: 150px;
+    margin-left: 30px;
+  }
+  .con-32{
+    float: right;
+    width: 49%;
+    max-height: 245px;
+    min-height: 200px;
+    margin-right: 2px;
+    margin-top: 10px;
+  }
+  .con-32 img{
+    width: 220px;
+    height: 150px;
+    margin-left: 30px;
+  }
+  .con-33{
+    float: left;
+    width: 49%;
+    max-height: 245px;
+    min-height: 200px;
+    margin-left: 2px;
+    margin-top: 50px;
+  }
+  .con-33 img{
+    width: 220px;
+    height: 150px;
+    margin-left: 30px;
+  }
+  .con-34{
+    float: right;
+    width: 49%;
+    max-height: 245px;
+    min-height: 200px;
+    margin-right: 2px;
+    margin-top: 50px;
+  }
+  .con-34 img{
+    width: 220px;
+    height: 150px;
+    margin-left: 30px;
+  }
